@@ -1,0 +1,385 @@
+@import url("https://fonts.googleapis.com/css2?family=Moul&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+#logo {
+  font-size: 2rem;
+  flex: 1;
+  font-family: "Moul", serif;
+  font-weight: 500;
+  color: white;
+}
+
+section {
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  min-height: 10vh;
+  max-height: 10vh;
+}
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  color: inherit;
+}
+.home-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+}
+.header-nav > ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav > ul > li {
+  list-style: none;
+  color: white;
+}
+.pic-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+.home-left {
+  width: 50%;
+}
+.home-left h2 {
+  color: rgb(38, 255, 0);
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+.home-left h3 {
+  color: rgb(117, 104, 235);
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Moul", serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.home-left p {
+  color: rgb(255, 255, 255);
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.home-right > img {
+  height: 26rem;
+  width: 26rem;
+  border-radius: 25px;
+}
+.button {
+  padding: 1rem 3rem;
+  color: white;
+  background-color: brown;
+  border-radius: 25px;
+  margin-top: 1.3rem;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: white;
+  color: brown;
+  transition: 0.3s;
+}
+/* home end!! */
+.body-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  align-items: center;
+}
+.body-nav > ul {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-nav > ul > li {
+  list-style: none;
+}
+.pic-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  background-attachment: fixed;
+}
+.body-left {
+  width: 50%;
+}
+.body-left h2 {
+  color: rgb(212, 255, 0);
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+.body-left h3 {
+  color: rgb(0, 0, 0);
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Moul", serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+.body-left p {
+  color: gray;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+.body-right > img {
+  height: 26rem;
+  width: 26rem;
+  border-radius: 25px;
+}
+
+.but {
+  font-size: 1rem;
+  padding: 20px 20px;
+  margin-top: 1rem;
+  background-color: dodgerblue;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.but:hover {
+  color: dodgerblue;
+  background-color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+/* but2 */
+#Sermons {
+  color: rgb(124, 241, 0);
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-family: "Moul", serif;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+#Recent {
+  color: inherit;
+  letter-spacing: 2.7px;
+  font-size: 2rem;
+  text-align: center;
+}
+.b2-nav {
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+.pic-b2 img {
+  width: 27rem;
+  height: 20rem;
+  border: 7rem;
+  border-radius: 10px;
+}
+.pic-b2 img:hover {
+  width: 27rem;
+  height: 20rem;
+  border: 3px solid gray;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+p:nth-child(1) {
+  color: gray;
+  font-size: 1rem;
+}
+.one {
+  color: gray;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+.two {
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+.tree {
+  color: gray;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+.but2 {
+  padding: 15px 20px;
+  margin-top: 1rem;
+  background-color: brown;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.but2:hover {
+  color: brown;
+  background-color: white;
+  transition: 0.3s;
+}
+#back-color {
+  background-color: blue;
+  margin-top: 100vh;
+  width: 100%;
+  height: 100vh;
+}
+.main-b3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-b3 {
+  width: 40%;
+}
+.left-b3 > h2 {
+  font-size: 1rem;
+  color: yellow;
+  margin-top: 6rem;
+  cursor: pointer;
+}
+.left-b3 > h1 {
+  font-size: 2rem;
+  color: white;
+  padding: 1rem 0;
+}
+.left-b3 > img {
+  width: 30rem;
+  height: 25rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.right-b3 {
+  width: 48%;
+}
+.right-b3 h3 {
+  font-size: 1rem;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 6.5rem;
+  text-transform: uppercase;
+  line-height: 1.3rem;
+}
+.rapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-card h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 3rem;
+}
+.text-card p {
+  color: rgb(210, 203, 203);
+  font-size: 1rem;
+  padding-right: 1rem;
+  padding: 1rem 0;
+}
+.rapper1 {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+.buttom {
+  font-size: 1rem;
+  background-color: rgb(211, 211, 91);
+  color: white;
+  padding: 15px 15px;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.buttom:hover {
+  color: rgb(211, 211, 91);
+  background-color: white;
+  transition: 0.3s;
+}
+.backgrund1 {
+  background-color: rgb(239, 230, 230);
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+.posi {
+  background-color: white;
+  width: 94%;
+  height: 70vh;
+  margin: 4rem auto;
+  z-index: 2;
+}
+.posi h2 {
+  color: rgb(240, 200, 0);
+  text-align: center;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding-top: 7rem;
+}
+.posi > h3 {
+  color: inherit;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.flex-pb {
+  margin-top: 20px;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.pic-b4 > img {
+  width: 10rem;
+  height: 8rem;
+}
+.two2 {
+  color: inherit;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 1rem;
+}
+.tree3 {
+  color: gray;
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 0 0 0 1rem;
+}
